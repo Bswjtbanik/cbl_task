@@ -29,22 +29,22 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ebl_sky_text" translatesAutoresizingMaskIntoConstraints="NO" id="ctg-n2-mnP">
-                                <rect key="frame" x="85" y="617" width="205" height="30"/>
+                                <rect key="frame" x="95" y="607" width="185" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="CWw-IQ-ESg"/>
-                                    <constraint firstAttribute="width" constant="205" id="PFy-AU-hOV"/>
+                                    <constraint firstAttribute="height" constant="26" id="C21-Bl-pCB"/>
+                                    <constraint firstAttribute="width" constant="185" id="n52-KW-Xfk"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="uiq-eI-0vx" firstAttribute="trailing" secondItem="tS7-bw-0aa" secondAttribute="trailing" constant="132" id="54y-lC-Cvj"/>
                             <constraint firstItem="iWV-sH-y2S" firstAttribute="bottom" secondItem="uiq-eI-0vx" secondAttribute="bottom" id="DGw-yy-n79"/>
+                            <constraint firstItem="uiq-eI-0vx" firstAttribute="bottom" secondItem="ctg-n2-mnP" secondAttribute="bottom" constant="34" id="H6m-qX-AO2"/>
                             <constraint firstItem="tS7-bw-0aa" firstAttribute="top" secondItem="uiq-eI-0vx" secondAttribute="top" constant="61" id="J7d-Xb-sqq"/>
+                            <constraint firstItem="ctg-n2-mnP" firstAttribute="centerX" secondItem="t7w-bd-uVF" secondAttribute="centerX" id="Kqe-lR-pNU"/>
                             <constraint firstItem="iWV-sH-y2S" firstAttribute="top" secondItem="t7w-bd-uVF" secondAttribute="top" id="N5T-0A-OJ2"/>
                             <constraint firstItem="iWV-sH-y2S" firstAttribute="trailing" secondItem="uiq-eI-0vx" secondAttribute="trailing" id="TsU-fg-e2y"/>
                             <constraint firstItem="iWV-sH-y2S" firstAttribute="leading" secondItem="uiq-eI-0vx" secondAttribute="leading" id="cbj-g0-oEH"/>
-                            <constraint firstItem="ctg-n2-mnP" firstAttribute="centerX" secondItem="t7w-bd-uVF" secondAttribute="centerX" id="d0d-tP-zgX"/>
-                            <constraint firstItem="uiq-eI-0vx" firstAttribute="bottom" secondItem="ctg-n2-mnP" secondAttribute="bottom" constant="20" id="pMZ-Ir-5Sw"/>
                             <constraint firstItem="tS7-bw-0aa" firstAttribute="leading" secondItem="uiq-eI-0vx" secondAttribute="leading" constant="131" id="u80-T8-74r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uiq-eI-0vx"/>
@@ -865,6 +865,6 @@
         <image name="zip" width="46" height="33"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GeO-TB-aLd"/>
+        <segue reference="stf-bH-fjI"/>
     </inferredMetricsTieBreakers>
 </document>
