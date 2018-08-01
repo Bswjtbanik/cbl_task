@@ -73,26 +73,33 @@
                                     <navigationItem id="9qO-yk-7k7"/>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ebl_sky_text" translatesAutoresizingMaskIntoConstraints="NO" id="WfL-xr-sl3">
+                                <rect key="frame" x="9" y="20" width="168" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="1BM-so-nsm"/>
+                                    <constraint firstAttribute="width" constant="168" id="SP4-Qj-Hwa"/>
+                                </constraints>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aVX-7r-yGz" customClass="UIViewX" customModule="CBL" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="RhQ-7n-10B">
-                                        <rect key="frame" x="30" y="70" width="315" height="66.5"/>
+                                        <rect key="frame" x="30" y="70" width="315" height="74.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VCR-EL-oJP">
-                                                <rect key="frame" x="0.0" y="0.0" width="53" height="66.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHs-0K-DVc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="53" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="53" id="fH3-QQ-sqa"/>
-                                                            <constraint firstAttribute="height" constant="52" id="rE1-i5-4uH"/>
+                                                            <constraint firstAttribute="width" constant="60" id="fH3-QQ-sqa"/>
+                                                            <constraint firstAttribute="height" constant="60" id="rE1-i5-4uH"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="banking"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8u-eZ-QAI">
-                                                        <rect key="frame" x="0.0" y="52" width="53" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="60" width="60" height="14.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124612808228" green="0.89110738039016724" blue="0.77782410383224487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -100,19 +107,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Xu0-Is-bh2">
-                                                <rect key="frame" x="120" y="0.0" width="50" height="66.5"/>
+                                                <rect key="frame" x="118.5" y="0.0" width="60" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnk-Re-yk9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="0EY-lJ-uyZ"/>
-                                                            <constraint firstAttribute="height" constant="52" id="a3x-4z-U5U"/>
+                                                            <constraint firstAttribute="width" constant="60" id="0EY-lJ-uyZ"/>
+                                                            <constraint firstAttribute="height" constant="60" id="a3x-4z-U5U"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="billspay"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billspay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgs-jk-hHH">
-                                                        <rect key="frame" x="0.0" y="52" width="43.5" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="60" width="60" height="14.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="0FP-as-3oW"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -120,19 +130,19 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dtt-Vd-XZa">
-                                                <rect key="frame" x="236.5" y="0.0" width="78.5" height="66.5"/>
+                                                <rect key="frame" x="236.5" y="0.0" width="78.5" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lat-PR-U34">
-                                                        <rect key="frame" x="14.5" y="0.0" width="50" height="52"/>
+                                                        <rect key="frame" x="9.5" y="0.0" width="60" height="60"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="52" id="7rt-lE-pyg"/>
-                                                            <constraint firstAttribute="width" constant="50" id="jA7-eD-3e1"/>
+                                                            <constraint firstAttribute="height" constant="60" id="7rt-lE-pyg"/>
+                                                            <constraint firstAttribute="width" constant="60" id="jA7-eD-3e1"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="fund"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fund Transfer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufw-j7-dja">
-                                                        <rect key="frame" x="0.0" y="52" width="78.5" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="60" width="78.5" height="14.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -142,22 +152,25 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="A92-Ez-IUV">
-                                        <rect key="frame" x="30" y="196.5" width="315" height="66.5"/>
+                                        <rect key="frame" x="30" y="204.5" width="315" height="74.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="j4u-cq-fdG">
-                                                <rect key="frame" x="0.0" y="0.0" width="53" height="66.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muK-Hq-pE2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="53" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="52" id="5ge-6e-ii7"/>
-                                                            <constraint firstAttribute="width" constant="53" id="L9d-RU-rum"/>
+                                                            <constraint firstAttribute="height" constant="60" id="5ge-6e-ii7"/>
+                                                            <constraint firstAttribute="width" constant="60" id="L9d-RU-rum"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="products"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1L-Zu-yNo">
-                                                        <rect key="frame" x="0.0" y="52" width="53" height="14.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1L-Zu-yNo">
+                                                        <rect key="frame" x="0.0" y="60" width="60" height="14.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="SPQ-Il-TrD"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -165,19 +178,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="43N-Pg-TBR">
-                                                <rect key="frame" x="120" y="0.0" width="50" height="66.5"/>
+                                                <rect key="frame" x="127.5" y="0.0" width="60" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAY-Y2-9it">
-                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="fkD-sv-Z6f"/>
-                                                            <constraint firstAttribute="height" constant="52" id="qfl-lj-SfE"/>
+                                                            <constraint firstAttribute="width" constant="60" id="fkD-sv-Z6f"/>
+                                                            <constraint firstAttribute="height" constant="60" id="qfl-lj-SfE"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="priorityicon"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billspay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZS-0Z-XQO">
-                                                        <rect key="frame" x="0.0" y="52" width="43.5" height="14.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Priority" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZS-0Z-XQO">
+                                                        <rect key="frame" x="0.0" y="60" width="60" height="14.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="Rpo-sU-dIh"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -185,19 +201,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2YV-Wt-lA7">
-                                                <rect key="frame" x="236.5" y="0.0" width="78.5" height="66.5"/>
+                                                <rect key="frame" x="255" y="0.0" width="60" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W91-W6-hgY">
-                                                        <rect key="frame" x="14.5" y="0.0" width="50" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="7Cq-Fg-T33"/>
-                                                            <constraint firstAttribute="height" constant="52" id="S4a-nq-O5a"/>
+                                                            <constraint firstAttribute="width" constant="60" id="7Cq-Fg-T33"/>
+                                                            <constraint firstAttribute="height" constant="60" id="S4a-nq-O5a"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="benifits"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fund Transfer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-qQ-egq">
-                                                        <rect key="frame" x="0.0" y="52" width="78.5" height="14.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Benefits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-qQ-egq">
+                                                        <rect key="frame" x="0.0" y="60" width="60" height="14.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="Ewi-bi-JOB"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -207,22 +226,25 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="IGZ-dd-Rer">
-                                        <rect key="frame" x="30" y="323" width="315" height="66.5"/>
+                                        <rect key="frame" x="30" y="339" width="315" height="74.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qn6-Xq-jWU">
-                                                <rect key="frame" x="0.0" y="0.0" width="53" height="66.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atU-xE-OF6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="53" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="52" id="H8P-7j-apd"/>
-                                                            <constraint firstAttribute="width" constant="53" id="V34-f5-FGC"/>
+                                                            <constraint firstAttribute="height" constant="60" id="H8P-7j-apd"/>
+                                                            <constraint firstAttribute="width" constant="60" id="V34-f5-FGC"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="zip"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJJ-1s-abe">
-                                                        <rect key="frame" x="0.0" y="52" width="53" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="60" width="60" height="14.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="FGV-C6-tAd"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -230,7 +252,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="WJV-wp-mtg">
-                                                <rect key="frame" x="120" y="0.0" width="50" height="66.5"/>
+                                                <rect key="frame" x="130" y="0.0" width="60" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3o-ON-fAe">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
@@ -242,21 +264,24 @@
                                                         <state key="normal" image="locate_ebl"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billspay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSl-3E-3gn">
-                                                        <rect key="frame" x="0.0" y="52" width="43.5" height="14.5"/>
+                                                        <rect key="frame" x="0.0" y="52" width="60" height="22.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="gVx-0h-mjm"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="efh-wm-PPb">
-                                                <rect key="frame" x="236.5" y="0.0" width="78.5" height="66.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="efh-wm-PPb">
+                                                <rect key="frame" x="260" y="0.0" width="55" height="74.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k14-1W-azI">
-                                                        <rect key="frame" x="14.5" y="0.0" width="50" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="52"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="52" id="YQj-DS-jY2"/>
-                                                            <constraint firstAttribute="width" constant="50" id="Ypr-dr-2wg"/>
+                                                            <constraint firstAttribute="width" constant="55" id="Ypr-dr-2wg"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="message"/>
@@ -264,8 +289,8 @@
                                                             <segue destination="wDN-aC-TjY" kind="showDetail" id="g9Q-9l-Y3v"/>
                                                         </connections>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fund Transfer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5a-xn-znp">
-                                                        <rect key="frame" x="0.0" y="52" width="78.5" height="14.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5a-xn-znp">
+                                                        <rect key="frame" x="0.0" y="52" width="55" height="22.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -275,33 +300,27 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="dFV-xb-Ag8">
-                                        <rect key="frame" x="30" y="449.5" width="315" height="66.5"/>
+                                        <rect key="frame" x="30" y="473.5" width="315" height="65"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="H26-dt-PoQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="53" height="66.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txg-5m-GCT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="53" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="53" id="pIz-FY-gTZ"/>
-                                                            <constraint firstAttribute="height" constant="52" id="ug8-vt-mWr"/>
+                                                            <constraint firstAttribute="width" constant="65" id="pIz-FY-gTZ"/>
+                                                            <constraint firstAttribute="height" constant="65" id="ug8-vt-mWr"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" image="products"/>
+                                                        <state key="normal" image="contactus"/>
                                                         <connections>
                                                             <segue destination="BYZ-38-t0r" kind="showDetail" id="I3Q-tR-t4k"/>
                                                         </connections>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVQ-ci-dmo">
-                                                        <rect key="frame" x="0.0" y="52" width="53" height="14.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="yEl-Y6-YhI">
-                                                <rect key="frame" x="120" y="0.0" width="50" height="66.5"/>
+                                                <rect key="frame" x="140" y="0.0" width="50" height="65"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xms-fM-4Qm">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
@@ -312,8 +331,11 @@
                                                         <color key="tintColor" red="0.73614346980000001" green="0.84327358009999998" blue="0.76158320899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="help"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billspay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zf-mg-olK">
-                                                        <rect key="frame" x="0.0" y="52" width="43.5" height="14.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zf-mg-olK">
+                                                        <rect key="frame" x="0.0" y="52" width="40" height="13"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="r5o-Y6-HFg"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -321,18 +343,18 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nwx-ON-Hw1">
-                                                <rect key="frame" x="236.5" y="0.0" width="78.5" height="66.5"/>
+                                                <rect key="frame" x="265" y="0.0" width="50" height="65"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0c-22-03C">
-                                                        <rect key="frame" x="14.5" y="0.0" width="50" height="52"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="52" id="U0a-ig-q9W"/>
                                                             <constraint firstAttribute="width" constant="50" id="ZSe-dd-BaZ"/>
                                                         </constraints>
                                                         <state key="normal" image="ebl_logo"/>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fund Transfer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUs-WL-Rvj">
-                                                        <rect key="frame" x="0.0" y="52" width="78.5" height="14.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUs-WL-Rvj">
+                                                        <rect key="frame" x="0.0" y="52" width="50" height="13"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" red="0.77159124609999996" green="0.89110738040000004" blue="0.7778241038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -366,13 +388,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ebl_sky_text" translatesAutoresizingMaskIntoConstraints="NO" id="WfL-xr-sl3">
-                                <rect key="frame" x="9" y="20" width="168" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="24" id="1BM-so-nsm"/>
-                                    <constraint firstAttribute="width" constant="168" id="SP4-Qj-Hwa"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -397,7 +412,7 @@
         <!--ContactVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ContactVC" customModule="CBL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContactVC" id="BYZ-38-t0r" customClass="ContactVC" customModule="CBL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -422,7 +437,7 @@
                                                 <real key="value" value="6"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                                 <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -452,7 +467,7 @@
                                                 <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                                 <real key="value" value="1"/>
@@ -479,7 +494,7 @@
                                                 <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                                 <real key="value" value="1"/>
@@ -554,7 +569,7 @@
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ahy-FU-A7e">
                                 <rect key="frame" x="0.0" y="44" width="375" height="69"/>
-                                <color key="backgroundColor" red="0.27746805549999998" green="0.68073719740000005" blue="0.2726242244" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.15843623879999999" green="0.52336907389999998" blue="0.1872577369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="jFK-ak-owM"/>
                                 </constraints>
@@ -716,7 +731,7 @@
                                                 <real key="value" value="6"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                                 <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -743,7 +758,7 @@
                                                 <real key="value" value="6"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                <real key="value" value="1"/>
+                                                <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                                 <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -757,7 +772,7 @@
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AM4-yM-OwR">
                                 <rect key="frame" x="0.0" y="44" width="375" height="69"/>
-                                <color key="backgroundColor" red="0.27746805549999998" green="0.68073719740000005" blue="0.2726242244" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.15843623876571655" green="0.52336907386779785" blue="0.18725773692131042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="5mA-c3-TXn"/>
                                 </constraints>
@@ -835,6 +850,7 @@
         <image name="banking" width="35" height="33"/>
         <image name="benifits" width="34" height="33"/>
         <image name="billspay" width="33" height="34"/>
+        <image name="contactus" width="88" height="88"/>
         <image name="ebl_logo" width="62" height="66"/>
         <image name="ebl_logo-1" width="186" height="198"/>
         <image name="ebl_sky_text" width="379" height="57"/>
@@ -849,6 +865,6 @@
         <image name="zip" width="46" height="33"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="beM-pU-itT"/>
+        <segue reference="GeO-TB-aLd"/>
     </inferredMetricsTieBreakers>
 </document>

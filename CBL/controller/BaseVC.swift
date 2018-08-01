@@ -10,7 +10,7 @@ import UIKit
 
 class BaseVC: UIViewController, UICollectionViewDataSource , UICollectionViewDelegate {
  
-    var imageMenu = [UIImage(named: "list_men"),UIImage(named: "list_banking"),UIImage(named: "list_benefits"),UIImage(named: "list_billspay"),UIImage(named: "list_calculato"),UIImage(named: "list_fund"),UIImage(named: "list_help"),UIImage(named: "list_locateus"),UIImage(named: "list_priority"),UIImage(named: "list_products"),UIImage(named: "list_zip"),UIImage(named: "list_message")]
+    var imageMenu = [UIImage(named: "list_men"),UIImage(named: "list_banking"),UIImage(named: "list_benefits"),UIImage(named: "list_message"),UIImage(named: "list_contactus"),UIImage(named: "list_billspay"),UIImage(named: "list_calculato"),UIImage(named: "list_fund"),UIImage(named: "list_help"),UIImage(named: "list_locateus"),UIImage(named: "list_priority"),UIImage(named: "list_products"),UIImage(named: "list_zip")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,11 +35,14 @@ extension BaseVC {
             let controller = storyboard?.instantiateViewController(withIdentifier: "HomeVC")
             self.present(controller!, animated: true, completion: nil)
             
-        }  else if indexPath.row == 11{
+        }  else if indexPath.row == 3{
             let controller = storyboard?.instantiateViewController(withIdentifier: "MessageVC")
             self.present(controller!, animated: true, completion: nil)
             
-        } 
+        } else if indexPath.row == 4 {
+            let controller = storyboard?.instantiateViewController(withIdentifier: "ContactVC")
+            self.present(controller!, animated: true, completion: nil)
+        }
     }
     
     
